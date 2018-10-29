@@ -457,6 +457,107 @@ If we compare the arrangement to a matrix with 5 rows and 4 columns indexed from
     \item Filter [2,1], [3,4] and [5,4] may respond to curvy edges
 \end{itemize}
 
+\newpage
+The activations are given by : 
+\begin{figure}[H]
+\centering
+\begin{tabular}{cccc}
+\includegraphics[width=0.2\linewidth]{images/Fig_act_1.png}
+&
+\includegraphics[width=0.2\linewidth]{images/Fig_act_2.png}
+&
+\includegraphics[width=0.2\linewidth]{images/Fig_act_3.png}
+&
+\includegraphics[width=0.2\linewidth]{images/Fig_act_4.png}
+\\
+\includegraphics[width=0.2\linewidth]{images/Fig_act_5.png}
+&
+\includegraphics[width=0.2\linewidth]{images/Fig_act_6.png}
+&
+\includegraphics[width=0.2\linewidth]{images/Fig_act_7.png}
+&
+\includegraphics[width=0.2\linewidth]{images/Fig_act_8.png}
+\\
+\includegraphics[width=0.2\linewidth]{images/Fig_act_9.png}
+&
+\includegraphics[width=0.2\linewidth]{images/Fig_act_10.png}
+&
+\includegraphics[width=0.2\linewidth]{images/Fig_act_11.png}
+&
+\includegraphics[width=0.2\linewidth]{images/Fig_act_12.png}
+\\
+\includegraphics[width=0.2\linewidth]{images/Fig_act_13.png}
+&
+\includegraphics[width=0.2\linewidth]{images/Fig_act_14.png}
+&
+\includegraphics[width=0.2\linewidth]{images/Fig_act_15.png}
+&
+\includegraphics[width=0.2\linewidth]{images/Fig_act_16.png}
+\\
+\includegraphics[width=0.2\linewidth]{images/Fig_act_17.png}
+&
+\includegraphics[width=0.2\linewidth]{images/Fig_act_18.png}
+&
+\includegraphics[width=0.2\linewidth]{images/Fig_act_19.png}
+&
+\includegraphics[width=0.2\linewidth]{images/Fig_act_20.png}
+\end{tabular}
+\end{figure}
+
+\newpage
+The corresponding gray scale visualisation is given below :
+\begin{figure}[H]
+\centering
+\begin{tabular}{cccc}
+\includegraphics[width=0.2\linewidth]{images/Fig_act_grey_1.png}
+&
+\includegraphics[width=0.2\linewidth]{images/Fig_act_grey_2.png}
+&
+\includegraphics[width=0.2\linewidth]{images/Fig_act_grey_3.png}
+&
+\includegraphics[width=0.2\linewidth]{images/Fig_act_grey_4.png}
+\\
+\includegraphics[width=0.2\linewidth]{images/Fig_act_grey_5.png}
+&
+\includegraphics[width=0.2\linewidth]{images/Fig_act_grey_6.png}
+&
+\includegraphics[width=0.2\linewidth]{images/Fig_act_grey_7.png}
+&
+\includegraphics[width=0.2\linewidth]{images/Fig_act_grey_8.png}
+\\
+\includegraphics[width=0.2\linewidth]{images/Fig_act_grey_9.png}
+&
+\includegraphics[width=0.2\linewidth]{images/Fig_act_grey_10.png}
+&
+\includegraphics[width=0.2\linewidth]{images/Fig_act_grey_11.png}
+&
+\includegraphics[width=0.2\linewidth]{images/Fig_act_grey_12.png}
+\\
+\includegraphics[width=0.2\linewidth]{images/Fig_act_grey_13.png}
+&
+\includegraphics[width=0.2\linewidth]{images/Fig_act_grey_14.png}
+&
+\includegraphics[width=0.2\linewidth]{images/Fig_act_grey_15.png}
+&
+\includegraphics[width=0.2\linewidth]{images/Fig_act_grey_16.png}
+\\
+\includegraphics[width=0.2\linewidth]{images/Fig_act_grey_17.png}
+&
+\includegraphics[width=0.2\linewidth]{images/Fig_act_grey_18.png}
+&
+\includegraphics[width=0.2\linewidth]{images/Fig_act_grey_19.png}
+&
+\includegraphics[width=0.2\linewidth]{images/Fig_act_grey_20.png}
+\end{tabular}
+\end{figure}
+
+\textbf{NOTE : }The python file for loading \textbf{\textit{CNN$\_$Network}} and plotting the activations of the filters has been named \textbf{\textit{"visualise.m"}}\\\\
+
+If we compare the arrangement to a matrix with 5 rows and 4 columns indexed from [1,1] to [5,4], the we can see that activations [2,1], [2,3], [4,1], [4,4], [5,1] and [5,4] mainly seems to respond to lines. \\\\
+Notice that some of the activations look like curvy strokes, Eg : [4,2]\\\\
+Some of them seems to respond to corner like strokes, Eg : [3,2], [1,1]\\\\
+Mainly, it can be seen that some of these activations seems to be very similar which could mean that the filters might get activated for similar inputs and hence could be redundant.
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 \section{Question 3}
