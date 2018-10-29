@@ -1,6 +1,14 @@
 # Computational-Neuroscience
 Repository contains python as well as MATLAB codes used to get a better understanding about the functioning of network of neurons in the brain.
 
+### HH Model
+Use simulated Hodgkin Huxley model and compute the following :
+
+Threshold values for the external applied currents I1 , I2 , and I3 in which shift of dynamical behavior from one to another is seen, such as no AP, finite number of AP’s, Continuous firing and then followed by distortion resulting in no more APs is portrayed.
+
+A graph which depicts the firing rate (frequency) as you change the applied external current ( i.e. Iext vs. Firing rate (f))
+
+
 ### FitzHugh-Nagumo neuron model : Python
 Simulation of FitzHugh-Nagumo neuron model for better understanding of the dynamics.
 
